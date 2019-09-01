@@ -127,7 +127,7 @@ Now that we know the endpoints let's see an example of the full response of the 
 Now from this main response we are going to check some filters that we can apply to the fields displayed in the response
 
 ***
-##Select fields from continent
+## Select fields from Continent
 **Endpoint: http://localhost:8080/fieldsHidingExample/api/v1/continents?fields=id,name**
 
 **Service Response:**
@@ -146,7 +146,7 @@ Now from this main response we are going to check some filters that we can apply
 ```
 ***
 
-##Select fields from Continent
+## Select fields from Country
 **Endpoint: http://localhost:8080/fieldsHidingExample/api/v1/continents?fields=id,countries.name**
 
 **Service Response**
@@ -182,7 +182,7 @@ Now from this main response we are going to check some filters that we can apply
 ```
 ***
 
-##Select fields from States
+## Select fields from States
 **Endpoint: http://localhost:8080/fieldsHidingExample/api/v1/continents?fields=id,countries.name,countries.states.name**
 
 **Service Response**
